@@ -17,5 +17,6 @@ set -x
 #python gui_startup.py
 #python siv_test_collateral/siv_val-io-test-scripts/system/rtc_gio.py -i $sut_ip -t check_driver
 
+chmod +x ./siv_test_collateral/siv_val-io-test-apps/system/lpc.sh
 ./siv_test_collateral/siv_val-io-test-apps/system/lpc.sh
 
