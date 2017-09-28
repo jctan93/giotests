@@ -1,0 +1,12 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: tetstwo
+    description: "tetstwo git clone"
+
+run:
+    steps:
+        - echo "HELLO WORLD"
+        - pwd
+        - ls -la
+        - chmod +x test.sh
+        - bash test.sh 
