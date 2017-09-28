@@ -1,0 +1,109 @@
+                    Beagle Protocol Analyzer Software
+                    ---------------------------------
+
+Changes for v4.20 (2012/01/31)
+------------------------------
+- Added support for USB 2.0 Match/Action system
+- Changed names for many USB 3.0 constants and types (see UPGRADE.txt)
+
+
+Changes for v4.10 (2011/11/21)
+------------------------------
+- Added support for USB 3.0 packet truncation
+- Extended USB 3.0 complex match system
+- Extended USB 3.0 error detection to include EDB and framing errors
+
+
+Changes for v4.00 (2011/03/15)
+------------------------------
+- Added support for Beagle USB 5000
+- Added support for Python 2.7
+- Fixed rare issue with Windows USB driver management
+
+
+Changes for v3.09 (2010/06/25)
+------------------------------
+- Released separate 32-bit and 64-bit libraries
+- Improved threading performance for Python
+
+
+Changes for v3.08 (2009/08/07)
+------------------------------
+- .NET 2.0 now required; CLS compliance no longer supported (see README.txt)
+- Added support for Python 2.6
+
+
+Changes for v3.06 (2009/02/16)
+------------------------------
+- Fixed regression that caused .NET bindings to no longer work
+- Fixed rare issue with bg_usb480_digital_out_match function in Python
+
+
+Changes for v3.05 (2009/01/30)
+------------------------------
+- Split supported platforms into separate API packages
+- Included language examples in API packages instead of in a separate package
+
+
+Changes for v3.04 (2008/07/18)
+------------------------------
+- Added support on 64-bit Windows for 32-bit applications
+
+
+Changes for v3.03 (2008/06/06)
+------------------------------
+- Added Mac OS X support
+- Made improvements to OTG event detection
+- Fixed hang in bg_spi_read when SS was inactive but SCK was toggling
+- Passing 0 to bg_close will close all open handles
+- For Beagle USB 480, resume bus events are now returned with a duration
+
+
+Changes for v3.02 (2008/01/28)
+------------------------------
+- Added OTG support for Beagle USB 480
+- Improved bg_close to be able to close all open handles with one call
+- Minor capture inconsistencies have been fixed
+- Support for Python v2.3 has been deprecated (see UPGRADE.txt)
+
+
+Changes for v3.01 (2007/12/21)
+------------------------------
+- Made improvements to Rosetta support (see UPGRADE.txt and README.txt)
+- Improved host-side-buffer reporting
+
+
+Changes for v3.00 (2007/10/29)
+------------------------------
+- Added support for Beagle USB 480 Protocol Analyzer
+- Changed API function names, arguments, and constants (see UPGRADE.txt)
+- Added firmware revision to BeagleVersion structure
+- Added bg_dev_addr to report the device address of the connected analyzer
+
+
+Changes for v2.00 (2007/04/20)
+------------------------------
+- Library now requires version 1.1.0.0 of the USB driver (see UPGRADE.txt)
+- Added MDIO support
+- Changed names of API functions and types (see UPGRADE.txt)
+- Library under Linux is now dynamically linked to libusb
+- Added support for Python, C#, Visual Basic .NET, Visual Basic 6
+- Changed prototypes for all read functions with timing (see UPGRADE.txt)
+- Removed BG_READ_ERR_IDLE_TIMEOUT since it was not being used
+- Fixed issue where bit timings could be 0 or half the clock period
+- Corrected bg_open_ext and bg_version to conform to API documentation
+
+
+Changes for v1.02 (2006/09/08)
+------------------------------
+- Fixed memory leak when closing a device (Linux only)
+
+
+Changes for v1.01 (2006/03/27)
+------------------------------
+- Fixed issue with beagle_buffers_info where arguments were swapped
+
+
+Changes for v1.00 (2005/11/01)
+------------------------------
+- Initial release of the API

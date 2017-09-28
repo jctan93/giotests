@@ -1,0 +1,40 @@
+[   21.819646] Bluetooth: HCI device and connection manager initialized
+[   21.826889] Bluetooth: HCI socket layer initialized
+[   21.832320] Bluetooth: L2CAP socket layer initialized
+[   21.838013] Bluetooth: SCO socket layer initialized
+[   22.114480] snd_hda_intel 0000:00:0e.0: Codec #0 probe error; disabling it...
+[   22.130511] ttyS2 - failed to request DMA
+[   22.192952] ax88179_178a 1-2.1:1.0 eth0: ax88179 - Link status is: 1
+[   22.207052] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   22.221516] 8021q: 802.1Q VLAN Support v1.8
+[   25.205041] udevd (476) used greatest stack depth: 11992 bytes left
+[   25.212141] udevd (477) used greatest stack depth: 11096 bytes left
+[  596.777830] Uptime: kernel validity duration has 14390 minute(s) remaining
+[ 3841.228641] ------------[ cut here ]------------
+[ 3841.233984] WARNING: CPU: 2 PID: 2089 at /home/ilab/yocto_bxt/bsp_test_20151217/yocto_build/build/tmp/work-shared/intel-corei7-64/kernel-source/kernel/sched/core.c:7301 __might_sleep+0x87/0x90()
+[ 3841.253388] do not call blocking ops when !TASK_RUNNING; state=1 set at [<ffffffff810c2c80>] prepare_to_wait_event+0x60/0x100
+[ 3841.265988] Modules linked in: 8021q snd_hda_codec_hdmi bluetooth fuse hid_sensor_magn_3d hid_sensor_incl_3d hid_sensor_accel_3d hid_sensor_gyro_3d iTCO_wdt hid_sensor_als hid_sensor_press hid_sensor_trigger hid_sensor_iio_common hid_sensor_custom hid_sensor_hub sbi_apl iTCO_vendor_support hid_heci_ish i915 pcspkr ax88179_178a usbnet lpc_ich i2c_i801 intel_ipu4_mod intel_ipu4_wrapper snd_hda_intel snd_hda_controller snd_hda_codec mei_me heci_ish mei snd_hda_core heci thermal tpm_crb tpm_tis tpm
+[ 3841.321604] CPU: 2 PID: 2089 Comm: cat Not tainted 4.1.13apollolake #1
+[ 3841.331066] Hardware name: Intel Corp. Broxton P/NOTEBOOK, BIOS APLI_IFWI_X64_R_2015_12_12_0844 12/12/2015
+[ 3841.344019]  ffffffff81ee53a8 ffff880002a6bc48 ffffffff81a1fe5a ffff8801f93d12a8
+[ 3841.354516]  ffff880002a6bc98 ffff880002a6bc88 ffffffff8107f24a ffff880002a6bd08
+[ 3841.365014]  ffffffff81ee6228 0000000000000268 0000000000000000 0000000000000001
+[ 3841.375538] Call Trace:
+[ 3841.380473]  [<ffffffff81a1fe5a>] dump_stack+0x4c/0x65
+[ 3841.388399]  [<ffffffff8107f24a>] warn_slowpath_common+0x8a/0xc0
+[ 3841.397272]  [<ffffffff8107f2c6>] warn_slowpath_fmt+0x46/0x50
+[ 3841.405874]  [<ffffffff810c2c80>] ? prepare_to_wait_event+0x60/0x100
+[ 3841.415150]  [<ffffffff810c2c80>] ? prepare_to_wait_event+0x60/0x100
+[ 3841.424404]  [<ffffffff810a5ae7>] __might_sleep+0x87/0x90
+[ 3841.432583]  [<ffffffff81a2497f>] mutex_lock_nested+0x2f/0x3a0
+[ 3841.441264]  [<ffffffff810b1375>] ? local_clock+0x25/0x30
+[ 3841.449444]  [<ffffffff810c2cb2>] ? prepare_to_wait_event+0x92/0x100
+[ 3841.458708]  [<ffffffff81887416>] iio_kfifo_buf_data_available+0x26/0x50
+[ 3841.468326]  [<ffffffff818844a5>] iio_buffer_ready+0x45/0x110
+[ 3841.476879]  [<ffffffff81885c74>] iio_buffer_read_first_n_outer+0x114/0x1b0
+[ 3841.486790]  [<ffffffff810c2d90>] ? wake_atomic_t_function+0x70/0x70
+[ 3841.496009]  [<ffffffff811cbbc8>] __vfs_read+0x18/0x40
+[ 3841.503861]  [<ffffffff811cc4ba>] vfs_read+0x8a/0x120
+[ 3841.511605]  [<ffffffff811cd1a9>] SyS_read+0x49/0xb0
+[ 3841.519245]  [<ffffffff81a28e57>] system_call_fastpath+0x12/0x6f
+[ 3841.528040] ---[ end trace 83faa3b72d3fabdb ]---

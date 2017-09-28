@@ -1,0 +1,86 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "detect", "detect.csproj", "{71F4FC99-69CD-4438-8137-40C2B699E879}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_i2c", "capture_i2c.csproj", "{03E5014A-C0B3-41E1-8EBA-A4A1B1945163}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_mdio", "capture_mdio.csproj", "{4668825E-756C-4A06-AD83-5631A63295C4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_spi", "capture_spi.csproj", "{D09EE92F-56E1-48A5-BE38-3086C6F5C53D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_usb12", "capture_usb12.csproj", "{9459CEEB-3EFC-4A58-BB11-AB485F7BC80E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_usb480", "capture_usb480.csproj", "{B328925C-8B01-4AD8-9672-31A4470E94B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_usb480_extras", "capture_usb480_extras.csproj", "{77FBB401-F199-4137-85D8-5634E2C9B08B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_usb5000", "capture_usb5000.csproj", "{39AD458D-68E8-4781-DD0A-7F853C62AF06}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capture_usb5000_extras", "capture_usb5000_extras.csproj", "{A0904D02-2747-6F6E-8F19-9575D48D04B5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{71F4FC99-69CD-4438-8137-40C2B699E879}.Debug.ActiveCfg = Debug|.NET
+		{71F4FC99-69CD-4438-8137-40C2B699E879}.Debug.Build.0 = Debug|.NET
+		{71F4FC99-69CD-4438-8137-40C2B699E879}.Release.ActiveCfg = Release|.NET
+		{71F4FC99-69CD-4438-8137-40C2B699E879}.Release.Build.0 = Release|.NET
+		{03E5014A-C0B3-41E1-8EBA-A4A1B1945163}.Debug.ActiveCfg = Debug|.NET
+		{03E5014A-C0B3-41E1-8EBA-A4A1B1945163}.Debug.Build.0 = Debug|.NET
+		{03E5014A-C0B3-41E1-8EBA-A4A1B1945163}.Release.ActiveCfg = Release|.NET
+		{03E5014A-C0B3-41E1-8EBA-A4A1B1945163}.Release.Build.0 = Release|.NET
+		{4668825E-756C-4A06-AD83-5631A63295C4}.Debug.ActiveCfg = Debug|.NET
+		{4668825E-756C-4A06-AD83-5631A63295C4}.Debug.Build.0 = Debug|.NET
+		{4668825E-756C-4A06-AD83-5631A63295C4}.Release.ActiveCfg = Release|.NET
+		{4668825E-756C-4A06-AD83-5631A63295C4}.Release.Build.0 = Release|.NET
+		{D09EE92F-56E1-48A5-BE38-3086C6F5C53D}.Debug.ActiveCfg = Debug|.NET
+		{D09EE92F-56E1-48A5-BE38-3086C6F5C53D}.Debug.Build.0 = Debug|.NET
+		{D09EE92F-56E1-48A5-BE38-3086C6F5C53D}.Release.ActiveCfg = Release|.NET
+		{D09EE92F-56E1-48A5-BE38-3086C6F5C53D}.Release.Build.0 = Release|.NET
+		{9459CEEB-3EFC-4A58-BB11-AB485F7BC80E}.Debug.ActiveCfg = Debug|.NET
+		{9459CEEB-3EFC-4A58-BB11-AB485F7BC80E}.Debug.Build.0 = Debug|.NET
+		{9459CEEB-3EFC-4A58-BB11-AB485F7BC80E}.Release.ActiveCfg = Release|.NET
+		{9459CEEB-3EFC-4A58-BB11-AB485F7BC80E}.Release.Build.0 = Release|.NET
+		{B328925C-8B01-4AD8-9672-31A4470E94B3}.Debug.ActiveCfg = Debug|.NET
+		{B328925C-8B01-4AD8-9672-31A4470E94B3}.Debug.Build.0 = Debug|.NET
+		{B328925C-8B01-4AD8-9672-31A4470E94B3}.Release.ActiveCfg = Release|.NET
+		{B328925C-8B01-4AD8-9672-31A4470E94B3}.Release.Build.0 = Release|.NET
+		{77FBB401-F199-4137-85D8-5634E2C9B08B}.Debug.ActiveCfg = Debug|.NET
+		{77FBB401-F199-4137-85D8-5634E2C9B08B}.Debug.Build.0 = Debug|.NET
+		{77FBB401-F199-4137-85D8-5634E2C9B08B}.Release.ActiveCfg = Release|.NET
+		{77FBB401-F199-4137-85D8-5634E2C9B08B}.Release.Build.0 = Release|.NET
+		{39AD458D-68E8-4781-DD0A-7F853C62AF06}.Debug.ActiveCfg = Debug|.NET
+		{39AD458D-68E8-4781-DD0A-7F853C62AF06}.Debug.Build.0 = Debug|.NET
+		{39AD458D-68E8-4781-DD0A-7F853C62AF06}.Release.ActiveCfg = Release|.NET
+		{39AD458D-68E8-4781-DD0A-7F853C62AF06}.Release.Build.0 = Release|.NET
+		{A0904D02-2747-6F6E-8F19-9575D48D04B5}.Debug.ActiveCfg = Debug|.NET
+		{A0904D02-2747-6F6E-8F19-9575D48D04B5}.Debug.Build.0 = Debug|.NET
+                {A0904D02-2747-6F6E-8F19-9575D48D04B5}.Release.ActiveCfg = Release|.NET
+                {A0904D02-2747-6F6E-8F19-9575D48D04B5}.Release.Build.0 = Release|.NET
+
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

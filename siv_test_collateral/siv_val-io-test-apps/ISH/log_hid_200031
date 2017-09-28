@@ -1,0 +1,4 @@
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device11 -> ../../../devices/0044:8086:22D8.0003/HID-SENSOR-200031.16.auto/iio:device11
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device7 -> ../../../devices/0044:8086:22D8.0002/HID-SENSOR-200031.6.auto/iio:device7
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger11 -> ../../../devices/0044:8086:22D8.0003/HID-SENSOR-200031.16.auto/trigger11
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger7 -> ../../../devices/0044:8086:22D8.0002/HID-SENSOR-200031.6.auto/trigger7

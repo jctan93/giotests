@@ -1,0 +1,10 @@
+total 0
+lrwxrwxrwx 1 root root 0 Sep 29 09:13 0003:03F0:0024.0001 -> ../../../devices/pci0000:00/0000:00:15.0/usb1/1-2/1-2.4/1-2.4:1.0/0003:03F0:0024.0001
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0002 -> ../../../devices/0044:8086:22D8.0002
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0003 -> ../../../devices/0044:8086:22D8.0003
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0004 -> ../../../devices/0044:8086:22D8.0004
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0005 -> ../../../devices/0044:8086:22D8.0005
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0006 -> ../../../devices/0044:8086:22D8.0006
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0007 -> ../../../devices/0044:8086:22D8.0007
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0008 -> ../../../devices/0044:8086:22D8.0008
+lrwxrwxrwx 1 root root 0 Sep 29 09:19 0044:8086:22D8.0009 -> ../../../devices/0044:8086:22D8.0009

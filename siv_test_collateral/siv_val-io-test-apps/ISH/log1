@@ -1,0 +1,1989 @@
+custom sensor - bmc150
+1.0 pass
+-1
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0000/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0001/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.5.auto/
+-- BMC150 Sensor --
+66 0 77 0 67 0 49 0 53 0 48 0 32 0 83 0 101 0 110 0 115 0 111 
+1. en_sensor= 1
+3. en_sensor= 1
+0
+x = -41015
+y = -13671
+z = -998046
+unit expo -6
+x1 = -0.0410   
+y1 = -0.0137   
+z1 = -0.9980   
+pass
+pass
+pass
+1
+x = -44921
+y = -15625
+z = -994140
+unit expo -6
+x1 = -0.0449   
+y1 = -0.0156   
+z1 = -0.9941   
+pass
+pass
+pass
+2
+x = -46875
+y = -17578
+z = -998046
+unit expo -6
+x1 = -0.0469   
+y1 = -0.0176   
+z1 = -0.9980   
+pass
+pass
+pass
+5
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 1
+3. en_sensor= 1
+0
+x = 0
+y = 0
+z = 0
+unit expo -6
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 0
+y = 0
+z = 0
+unit expo -6
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 0
+y = 0
+z = 0
+unit expo -6
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0002/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 1
+3. en_sensor= 1
+0
+x = 1
+y = 
+z = 
+unit expo 0
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+pass
+pass
+pass
+1
+x = 1
+y = 
+z = 
+unit expo 0
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+pass
+pass
+pass
+2
+x = 1
+y = 
+z = 
+unit expo 0
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+pass
+pass
+pass
+2
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0003/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0004/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0005/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+-1
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.0.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+0
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.1.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.2.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.3.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+3
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.4.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+4
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.5.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+5
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.6.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+6
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.7.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+7
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.8.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+8
+/sys/bus/hid/devices/0044:8086:22D8.0006/HID-SENSOR-2000e1.9.auto/
+1. en_sensor= 
+3. en_sensor= 
+0
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+1
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   
+2
+x = 
+y = 
+z = 
+unit expo 
+x1 = 0.0000   
+y1 = 0.0000   
+z1 = 0.0000   

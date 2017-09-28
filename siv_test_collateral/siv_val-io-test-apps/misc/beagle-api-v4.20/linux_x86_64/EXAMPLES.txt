@@ -1,0 +1,101 @@
+                   Total Phase Beagle Sample Code
+                   ------------------------------
+
+Contents
+--------
+c/       - Examples using C/C++ API
+python/  - Python script examples
+csharp/  - C# examples
+vb.net/  - Visual Basic .NET examples (Windows only)
+vb6/     - Visual Basic 6 examples (32-bit Windows only)
+
+
+Instructions
+------------
+Each individual examples directory has a README.txt which generally
+describes how to run the examples given.  Please see those files for
+more details.
+
+Every example is relatively short and well-commented.  The
+application developer is referred to the source code of the examples
+for detailed information on how each example operates.
+
+The C, Python, and C# examples include all of the following modules,
+while only a subset of these modules are demonstrated in the other
+language directories.
+
+
+API Features
+------------
+For a detailed explanation of the API features and constructs, please
+refer to the Beagle datasheet.  For a quick overview on the
+differences in API syntax between languages, refer to the README.txt
+found in the Beagle Software API package containing the Rosetta Language
+Bindings.  The Beagle datasheet and Software API package are available on
+the Total Phase website.
+
+
+Short Description
+-----------------
+* detect
+ - Detect Beagle devices attached to the system.
+
+* capture_i2c
+  - Capture I2C data from a Beagle I2C/SPI/MDIO analyzer
+
+* capture_spi
+  - Capture SPI data from a Beagle I2C/SPI/MDIO analyzer
+
+* capture_mdio
+  - Capture MDIO data from a Beagle I2C/SPI/MDIO analyzer
+
+* capture_usb12
+  - Capture USB data from a Beagle USB 12 analyzer
+
+* capture_usb480
+  - Capture USB data from a Beagle USB 480 analyzer
+
+* capture_usb480_extras
+  - Capture USB data from a Beagle USB 480 analyzer using
+    delayed-download mode and hardware filtering
+
+* capture_usb5000
+  - Capture USB 3.0 and/or USB 2.0 data from a Beagle USB 5000
+    analyzer
+
+* capture_usb5000_extras
+  - Capture USB 3.0 data from a Beagle USB 5000 analyzer using complex
+    triggers and target power control
+
+
+Example
+-------
+
+*** capture_i2c ***
+
+Refer to specific language directory README.txt to see how to run
+this example under the desired programming language.
+
+
+> detect
+Searching for Beagle adapters...
+1 device(s) found:
+    port=0   (avail)  (1095-549045)
+
+
+> capture_i2c 1024 8
+Opened Beagle device on port 0
+Sampling rate set to 10000 KHz.
+Idle timeout set to 500 ms.
+Latency set to 200 ms.
+Host interface is high speed.
+
+index,time(ns),I2C,status,<addr:r/w>(*),data0 ... dataN(*)
+1,524186100,I2C,( TIMEOUT I2C_NO_STOP )
+2,1048474100,I2C,( TIMEOUT I2C_NO_STOP )
+3,1336760500,I2C,( I2C_NO_STOP ),[S] <50:w> 00
+4,1337556200,I2C,( OK ),[S] <50:r> 00 01 02 03 04 05 06 07 08 09* [P]
+5,1862134000,I2C,( TIMEOUT I2C_NO_STOP )
+6,2386422000,I2C,( TIMEOUT I2C_NO_STOP )
+7,2508685000,I2C,( I2C_NO_STOP ),[S] <50:w> 0a
+8,2509465500,I2C,( OK ),[S] <50:r> 0a 0b 0c 0d 0e 0f 10 11 12 13* [P]

@@ -1,0 +1,25 @@
+Tests:
+You can run pydoc ./<tests>.py  to get detailed description
+
+All tests need to be run with root privileges
+
+Tests:
+
+ 1. getver.py           - Get firmware version via MKHI.
+ 2. getver2.py          - Get firmware version via 2 connections to MKHI.
+ 3. getver_fixed.py     - Get firmware version via fixed address MKHI client.
+ 4. stress_ver.py       - Get firmware version in loop (2000 iterations.
+ 5. stress_byte.py      - Send single byte to a firmware client in loop (2000 iterations.
+ 6. stress_max.py       - Send MTU buffer to a firmware client in loop (2000 iterations.
+ 7. connect_all_dyn.py  - Connect all dynamic address clients and send single byte.
+ 8. opencnt.py          - Check possible number of opened file handles.
+ 9. amt_getver.py       - Get firmware version via AMTHIF.
+10. amt_getver_multi.py - Get firmware version via AMTHIF using 10 connections.
+.
+Unit testing:
+.
+11. getver_ut.py        - Use python unittest framework to report test results (WIP).
+12. dev_state_ut.py     - Unittest to check that driver is alive and kicking (via debugfs).
+13. amt_getver_ut.py    - Unittest to get firmware version via AMTHIF.
+14. connum_ut.py        - Unittest to connect to all available connections.
+15. maxconn_ut.py       - Unittest to check number of open handle restrictions

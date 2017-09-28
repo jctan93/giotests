@@ -1,0 +1,8 @@
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device10 -> ../../../devices/0044:8086:22D8.0003/HID-SENSOR-200073.21.auto/iio:device10
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device12 -> ../../../devices/0044:8086:22D8.0004/HID-SENSOR-200073.23.auto/iio:device12
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device13 -> ../../../devices/0044:8086:22D8.0005/HID-SENSOR-200073.31.auto/iio:device13
+lrwxrwxrwx 1 root root 0 Sep 29 09:15 iio:device6 -> ../../../devices/0044:8086:22D8.0002/HID-SENSOR-200073.11.auto/iio:device6
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger10 -> ../../../devices/0044:8086:22D8.0003/HID-SENSOR-200073.21.auto/trigger10
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger12 -> ../../../devices/0044:8086:22D8.0004/HID-SENSOR-200073.23.auto/trigger12
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger13 -> ../../../devices/0044:8086:22D8.0005/HID-SENSOR-200073.31.auto/trigger13
+lrwxrwxrwx 1 root root 0 Sep 29 09:20 trigger6 -> ../../../devices/0044:8086:22D8.0002/HID-SENSOR-200073.11.auto/trigger6

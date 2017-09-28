@@ -1,0 +1,11 @@
+
+1. To build all the binaries dynamically linked, please use following command
+
+	make
+
+2. To build all the binaries static, please use following command
+
+	make BUILD=-static
+
+All the binary images will be places in "bin" folder.
+

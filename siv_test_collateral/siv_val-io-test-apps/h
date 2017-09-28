@@ -1,0 +1,844 @@
+[33mcommit 4ac9e7c392bdd0acb5cb95c1c30d055282d59f3f[m
+Author: Loo, WillamX <willamx.loo@intel.com>
+Date:   Tue Dec 20 00:50:51 2016 +0800
+
+    Added Generic Configuration for APL-i and Glenview Automation
+
+[33mcommit 5ddf5a93e3ae554f150b83dbf0a5b17b68648849[m
+Author: Loo, WillamX <willamx.loo@intel.com>
+Date:   Tue Dec 20 00:34:43 2016 +0800
+
+    Update Makefile and pch_i2c_sample test apps
+
+[33mcommit 8f146406724319b0cda88cfcd66813ebfe92dd7e[m
+Author: Loo, WillamX <willamx.loo@intel.com>
+Date:   Tue Dec 6 18:16:31 2016 +0800
+
+    Moved spiEEPROM_script and spi_EEPROM to spi folder
+
+[33mcommit 6ba8fc53f1e999e9a608cc7402b00ff3110afa4b[m
+Author: Loo, WillamX <willamx.loo@intel.com>
+Date:   Sat Dec 3 03:27:31 2016 +0800
+
+    Make some modication on the Aardvark configuration for APL-i Automation
+
+[33mcommit 927de5c6e8cb13d7f363c2cf355accd129533655[m
+Author: Loo, WillamX <willamx.loo@intel.com>
+Date:   Fri Dec 2 18:51:52 2016 +0800
+
+    Adding APL-i Automation SPI test app
+
+[33mcommit ed8f5b1353bd6d897f24b671dc8ead6ea371a866[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Wed Nov 30 22:04:43 2016 +0800
+
+    Commented out APL-i Automation IPU script at line 133
+
+[33mcommit 1b68c88b71c2301fee9a96daaa0f953eace7c5a6[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Wed Nov 30 21:09:25 2016 +0800
+
+    Add APL-I CSE Automation Test apps
+
+[33mcommit f5c8e6f8f514846e6723c0c7893ab77e4d1fcb92[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Wed Nov 30 20:24:52 2016 +0800
+
+    Removed CSE
+
+[33mcommit 5a593bd0d76813f74eb1f9f2c071a8f9a48c4499[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Wed Nov 30 20:16:25 2016 +0800
+
+    Added CSE Test App
+
+[33mcommit d44f434934851fdb59880e43bb57ff0ff4f0bd78[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Wed Nov 30 20:15:07 2016 +0800
+
+    Archieved CSE test app
+
+[33mcommit 881fc091abdd961e951c85427e61743d804a864f[m
+Author: WillamX Loo <willamx.loo@intel.com>
+Date:   Tue Nov 29 23:04:24 2016 +0800
+
+    Archive APL-I automation test apps
+
+[33mcommit 332a900e596f99a427446ad60f4d0350995272c1[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Tue Dec 8 04:37:31 2015 +0800
+
+    Added UART test for,
+    - Line break generation and detection
+    - Manual flow control
+
+[33mcommit 4e7454833b5c6f96b63c2f622816cc62fffe703c[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Fri Nov 20 09:04:46 2015 +0800
+
+    Removed hardcoded kernel source path from Makefile, instead passing as argument
+
+[33mcommit f7b24c35b9640730a701ae9cfc40809e494aa1f0[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Oct 28 12:52:23 2015 +0800
+
+    remove compilation warning for ioh_uart and added debug message for spi_EEPROM
+
+[33mcommit 8bae676eb18f3d06229b0898589815c85e789aaf[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Oct 28 12:31:42 2015 +0800
+
+    Added print message for the source and destination buffer address
+
+[33mcommit 86acdc7e27c7f8a679be9af1259f990b30beee2b[m
+Author: Rabara,Niravkumar <niravkumar.l.rabara@intel.com>
+Date:   Fri Sep 18 10:36:24 2015 +0800
+
+    Added Readme file
+
+[33mcommit fb7591ddb2ee3f83a368e508a476231a21003e01[m
+Author: Rabara,Niravkumar <niravkumar.l.rabara@intel.com>
+Date:   Fri Sep 18 10:30:05 2015 +0800
+
+    Changed permission removed unwanted files
+
+[33mcommit 3144b69ff14c22bc926461afa4aa3017a5c2fc47[m
+Author: Rabara,Niravkumar <niravkumar.l.rabara@intel.com>
+Date:   Fri Sep 18 10:13:35 2015 +0800
+
+    updated Makefile
+
+[33mcommit 15f1199ba42a32c840eb05381356788918e4c5ef[m
+Author: Rabara,Niravkumar <niravkumar.l.rabara@intel.com>
+Date:   Wed Aug 26 02:55:57 2015 +0800
+
+     Modified the directory structure, added bin folder for all the binary files, added Makefile base buil. -> make BUILD=-static to create static binaries -> make to create dyanamically linked binaries
+
+[33mcommit fb24c4ef8dbf4d8faed15ed26c9d7e02a11c268b[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Thu Aug 13 09:23:38 2015 +0800
+
+    Fixed data byte masking for UART 8,7,6,5 Data bits per character.
+
+[33mcommit e7654082fd835d29cfa2edb730b9b998625b88ad[m
+Merge: c9085fe e1894bf
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Thu Aug 6 08:48:13 2015 +0800
+
+    Merge branch 'master' of ssh://git-gar-1.devtools.intel.com:29418/siv_val-io-test-apps
+
+[33mcommit c9085fe1f80e117562b5487cf5d74620a1d2972a[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Thu Aug 6 08:45:20 2015 +0800
+
+    Include UART static binary in yocto-broxton
+    Removed legacy binary
+
+[33mcommit e1894bf2cfed93f51853c175c0725332dac33c7f[m
+Author: wtehx <wei.loonx.teh@intel.com>
+Date:   Wed Aug 5 06:54:53 2015 +0800
+
+    Storage4.py: running local mode, create_file operation is 1gb mass file
+
+[33mcommit da60e8c48ed8cb9924e3b81afed29a0c9f82ce4d[m
+Author: chyethiam <chye.thiam.tan@intel.com>
+Date:   Fri Jul 31 16:43:05 2015 +0800
+
+    Updated hpet with hpet-test and hpet-example
+
+[33mcommit fd767ded3987ee7a95d46211532680b680325ce8[m
+Author: chyethiam <chye.thiam.tan@intel.com>
+Date:   Fri Jul 31 16:32:23 2015 +0800
+
+    Updated file directory within hpet folder
+
+[33mcommit f4bc613aa5cbec5f3ae75f834bbd495a50072fff[m
+Merge: 8affed9 3386fb2
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Jul 22 15:42:04 2015 +0800
+
+    Merge branch 'nirav_dev'
+
+[33mcommit 3386fb204cb5abcc1d3851f8ea0a196b02a731c3[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Jul 22 15:19:32 2015 +0800
+
+    Fixed UART Testapp which was causing test failure for data bit size 5,6 & 7
+    - CRC byte wasn't masked appropriately
+
+[33mcommit 3f55205550a7f9eaecbe06e0b718b72001bfedbe[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Jul 22 14:39:30 2015 +0800
+
+    Updated header info for 50 and 600 baudrate
+
+[33mcommit 6990e9a59194bdd3656bc099d4b7cfb297d04727[m
+Author: Rabara,Niravkumar L <niravkumar.l.rabara@intel.com>
+Date:   Wed Jul 22 14:32:36 2015 +0800
+
+    Added 50 & 600 baudrate option for UART testapp
+
+[33mcommit 8affed9e9e45b8dd0118d57992e2c98594d319c9[m
+Author: Tan, Jui Nee <jui.nee.tan@intel.com>
+Date:   Wed Jul 22 13:14:18 2015 +0800
+
+    Updated GPIO test pins assignment which are available for both Bakersport and Bayley Bay boards
+    
+    Signed-off-by: Tan, Jui Nee <jui.nee.tan@intel.com>
+
+[33mcommit d92570d037cd7b2c8fad9ca59f409b8ffdcb4702[m
+Author: wtehx <wei.loonx.teh@intel.com>
+Date:   Thu Jul 16 09:32:14 2015 +0800
+
+    rtctest_static: Added rtc static test apps for yocto broxton
+
+[33mcommit efa61f7ccd40c0fd29571ed61519ef4af6e74482[m
+Author: wtehx <wei.loonx.teh@intel.com>
+Date:   Thu Jul 16 08:03:32 2015 +0800
+
+    yocto-broxton: Added test apps for yocto broxton
+
+[33mcommit 1d02ea81df218653df4949d1e7fb95cf5a9ff487[m
+Author: Nirav <nirav@shoak-Z87X-UD5H.png.intel.com>
+Date:   Wed Jul 8 17:34:36 2015 +0800
+
+    Added SPI 4-bits & 32-bits per word support in pch_spi_sample testapp
+
+[33mcommit 2e0e6f75fea219008f9c535ef2a3ab7592fb49d6[m
+Author: Nirav <nirav@shoak-Z87X-UD5H.png.intel.com>
+Date:   Wed Jul 8 10:20:43 2015 +0800
+
+    -       Added test app to read the status of hsuart pins - CTS, DCD, DSR and RI
+    -       Added test app to read RTC CMOS memory
+    -       Added test app for hpet timer
+
+[33mcommit ecbe0adc15c568e92c106e386f7c0aba69c95d59[m
+Author: Tan, Jui Nee <jui.nee.tan@intel.com>
+Date:   Mon Jun 29 14:31:52 2015 +0800
+
+    Integrate GPIO_Concurrent_Access.c into Makefile
+
+[33mcommit 5d0eca454713c0a784ad678abf36062249dcab3e[m
+Author: Tan, Jui Nee <jui.nee.tan@intel.com>
+Date:   Wed Jun 17 14:19:23 2015 +0800
+
+    Added GPIO test app to access GPIO pins concurrently.
+    If error message "GPIO-%d write data failed!!!!!" is displayed,
+    then the test is failed.
+    
+    Signed-off-by: Tan, Jui Nee <jui.nee.tan@intel.com>
+
+[33mcommit ffd3d43126b1a66c3794f1ded76a6929d3c8d6cd[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Oct 31 13:43:03 2014 +0800
+
+    Added note for uart test app, not for external release.
+    
+    Also committed original UART test app code from OKI for archive purpose and for tracking
+
+[33mcommit e969a6469fe45d4e62e58ababf552ef94c0af253[m
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Wed Aug 27 16:11:53 2014 +0800
+
+    Added LPE audio FW Detect App to the app collection
+    Only the binary files for 32bit and 64bit are added to the directory lpe/fw_detect/bin/
+
+[33mcommit 9162b1e5ff8e7071302f610a5089f76d6e70a4a1[m
+Author: root <root@localhost.localdomain>
+Date:   Tue Aug 5 11:01:34 2014 +0800
+
+    Test rebuild i2c app on fedora14
+
+[33mcommit 1211cea40d1dfffc9f47de4d5bcf849d352d29a3[m
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Mon Aug 4 14:49:14 2014 +0800
+
+    Modified pch_i2c_sample.c Max Data Size from 256 to 255 and recompiled pch_i2c_sample for linux-x86
+
+[33mcommit 3146cf49df20607e981429bb6babf421eb2b8b4c[m
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Tue Jul 15 17:04:40 2014 +0800
+
+    Debug previous change to spiEEPROM_script
+
+[33mcommit 4cb38b7a2883f77758558439f204fe46cf7d988d[m
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Tue Jul 15 16:36:02 2014 +0800
+
+    Added spiEEPROM_script to git
+    Debug error in result checking where both txrx empty is pass
+
+[33mcommit af725787db3e3d4108a5d0a9bdd8f58a13ad626f[m
+Author: Leow, Teng Jun Nicholas <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 11 09:25:17 2014 +0800
+
+    Merged i2c test application for 7bit and 10bit as they are redundant.
+    
+    Rebuilt and committed binaries for 32 and 64bit to support the following
+    
+    1) 7bit and 10bit addressing
+    2) max of 256 bytes transaction
+
+[33mcommit cefb8b11df9965008c50daa2b4bfe233b53a64a7[m
+Merge: c950fc1 568d162
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Wed Jul 9 18:29:24 2014 +0800
+
+    Merge branch 'master' of ssh://git-gar-1.devtools.intel.com:29418/siv_val-io-test-apps
+    
+    Conflicts:
+            spiEEPROM_script
+
+[33mcommit c950fc14c1f7ff657282644ccbd3817df66d076e[m
+Author: root <root@ntleow-thm.png.intel.com>
+Date:   Wed Jul 9 18:21:52 2014 +0800
+
+    Update to spiEEPROM_script
+
+[33mcommit 568d16274a087df7778cc02d25755bd67d389cd3[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon May 26 16:52:08 2014 +0800
+
+    Help Henri commit spiEEPROM script update
+
+[33mcommit a12a79dd85a2c9fd830cf91c087c8dfd4edd7378[m
+Author: Maurice Petallo <mauricex.r.petallo@intel.com>
+Date:   Fri Jan 24 17:41:30 2014 +0800
+
+    Changed read timeout of ioh_uart app from 30 secs to 60 secs. Updated the binaries too.
+    
+    Signed-off-by: Maurice Petallo <mauricex.r.petallo@intel.com>
+
+[33mcommit ed5858485ecf2da5d0e42914a860edef06e1e9c0[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Jan 16 16:25:13 2014 +0800
+
+    Remove duplicate files, commit 255 bytes binaries for i2c in 64bit and 32bit
+
+[33mcommit b31c8c6dc7de2f84a4f7bad1c0af3af11b02a40b[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Jan 16 16:19:03 2014 +0800
+
+    Renamed file pch_i2c_sample_mod.c to pch_i2c_sample_256.c
+
+[33mcommit d55f7c2b94cced3c15bc1ff301e08d4b0575681a[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Jan 16 16:18:08 2014 +0800
+
+    Added support for i2c app up to 255 bytes
+
+[33mcommit 08c5a22eb33215ddbabe2ee6f06ced2057d3465a[m
+Author: Maurice Petallo <mauricex.r.petallo@intel.com>
+Date:   Tue Dec 17 11:53:55 2013 +0800
+
+    Added read timeout for ioh_uart so it will close itself once the other app has stopped writing.
+    
+    Signed-off-by: Maurice Petallo <mauricex.r.petallo@intel.com>
+
+[33mcommit 4d38b22e42daff49ce406ce469775e641099ffec[m
+Author: Maurice Petallo <mauricex.r.petallo@intel.com>
+Date:   Tue Dec 17 11:13:05 2013 +0800
+
+    Added uni-directional traffic for ioh_uart with data integrity check using crc8
+    
+    Signed-off-by: Maurice Petallo <mauricex.r.petallo@intel.com>
+
+[33mcommit ff4eea3f119298988d35478650c477eb20afed8f[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Oct 30 17:26:05 2013 +0800
+
+    Commit 64bit and 32bit spi_EEPROM app after changing max data bytes to 200
+
+[33mcommit f91780b34688f4dc811258ef23d8b5755fe0b794[m
+Author: Nicholas Leow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Oct 30 17:23:50 2013 +0800
+
+    Commit spi_EEPROM.c with max 200 byte and remove redundant file spi_EEPROM_mod.c for code convergence.
+
+[33mcommit 5ebe610959eba6a0eca74ac12d171b03a2d11a7f[m
+Merge: 8635a2b 27b553e
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Oct 29 10:37:11 2013 +0800
+
+    Merge branch 'master' of ssh://git-gar-1.devtools.intel.com:29418/siv_val-io-test-apps
+
+[33mcommit 8635a2be95d74ddfddc3aad33065917e4dca0036[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Oct 29 10:36:34 2013 +0800
+
+    Rebuild SPI Apps after cast fix changes on pch_spi_sample
+
+[33mcommit 61384c96c49589fb39a98f18d29d8027d3bbdfb0[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Oct 29 10:34:59 2013 +0800
+
+    Changed cast types to fix 64bit issue seen when read from aardvark
+
+[33mcommit 27b553ea383ed39e68822c204e598d96a1f29755[m
+Author: Maurice Petallo <mauricex.r.petallo@intel.com>
+Date:   Thu Oct 17 18:39:49 2013 +0800
+
+    Added 'usbdev' tools used in USB device mode register access for archive
+    
+    Signed-off-by: Maurice Petallo <mauricex.r.petallo@intel.com>
+
+[33mcommit 37873f45d63b642bc3a3801637204909655c5332[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Sep 19 20:09:45 2013 +0800
+
+    Add binaries for smbus app for 32 bit and 64 bit
+
+[33mcommit 6e434abf75c2b605550b3ead290e8eccbedbe031[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Sep 19 20:07:30 2013 +0800
+
+    COmmit SMBus Test App and i2c-tools for archive
+
+[33mcommit 671c67de232075bba86d29683f63d07227f4775e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Aug 28 11:30:27 2013 +0800
+
+    Rebuild 32bit and 64bit UART apps after previous commit
+
+[33mcommit ccad9bd1d6eebe29d7668ba52cabebd8179f9e1c[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Aug 28 11:26:14 2013 +0800
+
+    Fixed 5 and 6 data bit issue due to masking, and ASCII compliance.
+
+[33mcommit 83b297fe30e61c3fb0563ad5d2934c844c53ee2f[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Aug 20 14:33:11 2013 +0800
+
+    Rebuild UART apps for 32bits and 64bits after improvements in previous checkin
+
+[33mcommit 93edbffe99f46d33dfdc4fa9a1aaaf8e20b856b5[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Aug 20 14:28:38 2013 +0800
+
+    Modified ioh_uart app to fix issues below:
+    1) End Character transmission for low speed transmission where sometimes app hang waiting for transmission to complete
+    2) Retain tty settings during transfer
+    3) Improved integrity checking per transmission
+
+[33mcommit 07754cebc64ba3e978ae938863a102acdcb18442[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Aug 6 17:45:54 2013 +0800
+
+    Updated spi_EEPROM app to support max 200 bytes and check in binary for 32 bit after this change
+
+[33mcommit 2f4863939dda7b247375f71713dc2d9c6bf2df7c[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Aug 6 16:36:08 2013 +0800
+
+    Temporary staging for git migration
+
+[33mcommit 42adb2b37ef249e10ba0486549a545032d5cd84f[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Jul 22 18:08:22 2013 +0800
+
+    Updated test apps for uart 64bit and 32 bit after Maurice editing.
+
+[33mcommit 489272201af5c7b508f36335d747a28eaea54ce1[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Jul 22 17:55:56 2013 +0800
+
+    Added 64bit binary for 10 bit addressing app for i2c
+
+[33mcommit 16c5e087c842e2b89076f0e1c6bf5545dde87dcb[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Jul 18 13:46:59 2013 +0800
+
+    Updated UART App by Maurice.
+
+[33mcommit fce1d9e4cd02c9f8482a1576e896324102d2e46f[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Jul 1 13:53:05 2013 +0800
+
+    Add 32b binary for i2c 10 bit modified application
+
+[33mcommit a7769fb10836c930fb8e0bf05504b82059cba66e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Jul 1 13:50:52 2013 +0800
+
+    Support for Module to support GPIO Interrupts
+
+[33mcommit 06b94a5fd70db9b9285822a152059a2858fcd03e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Jul 1 13:50:19 2013 +0800
+
+    Added support for 10 bit address mode
+
+[33mcommit 2b30bf48db7ece7554e2b084149912d8641adab9[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Apr 22 18:31:33 2013 +0800
+
+    GPIO interrupt apps by Kean Ho
+
+[33mcommit d74b7aa9fd2e3ee06a8ed092330c01b279e1ae50[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Mar 22 11:43:38 2013 +0800
+
+    Changed initial delay to 1s, and added switch for 300 baud rate to use sleep 1 second for tx/rx, and 10ms for the other baud rates.
+
+[33mcommit ece25165abc4fa3e7f6c9510537da27ae479ea23[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Mar 11 15:38:14 2013 +0800
+
+    wrong parameter for sleep(). changed to usleep
+
+[33mcommit 7717fc5fd36433bb50e2c0cd614edd6fdd3a079e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Mar 11 15:32:15 2013 +0800
+
+    reduced sleep time between executions for uart
+
+[33mcommit 75f44462413a56d3bc37acd82205e4c1c4ba8c3e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Mar 7 15:40:35 2013 +0800
+
+    Updated built binaries for uart app
+
+[33mcommit 279c0486756092cc9c4df45224480191af1939bb[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Mar 7 15:39:15 2013 +0800
+
+    Updated with max iterations 1000000
+
+[33mcommit d8a018f2ac28b6886ba422534f8ca006fb20faa2[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Mar 6 10:42:07 2013 +0800
+
+    Modified UART App for Clock measurement and support for 1,2 and 4 M baud rates
+
+[33mcommit 785037f1191bc07088e489d8834d47736b357948[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Feb 26 17:16:07 2013 +0800
+
+    Modified I2C app for Read/Write from actual device
+
+[33mcommit ef3af2f1f4e52de46985d3cd60de670ee63a8957[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Tue Feb 28 06:08:22 1989 +0800
+
+     Added Support for 2000000 support for x86 uart app
+
+[33mcommit a1fa370b33ed3e769b8c800ef6b39cd847ef5ee9[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Feb 7 17:09:24 2013 +0800
+
+    updated with 2000000 support
+
+[33mcommit b82191adc3c9c2d491f837c5b67229679ba1e10f[m
+Author: root <root@localhost.localdomain>
+Date:   Sun Jan 6 22:21:56 2013 -0800
+
+    Add Binary for Tizen
+
+[33mcommit 298d091e01677df0146bad7e941bb0b633b172d9[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Sat Jan 3 03:37:00 2009 +0800
+
+    Add 32bit binary for SPI_EEPROM Test app
+
+[33mcommit a3a4619440caeac3b9ae553e4d6396d16b082791[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jan 2 13:46:19 2013 +0800
+
+     Added Binary for spi_EEPROM
+
+[33mcommit 76e57b9bf0aaaedf9dcea84767815c384dabc0d1[m
+Merge: 6125a92 261b47e
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jan 2 13:44:55 2013 +0800
+
+    Merge branch 'development'
+
+[33mcommit 261b47eb17829a43072fc3f46ea81d4baf7bc285[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jan 2 13:44:35 2013 +0800
+
+    Added SPI Test app for EEPROM support
+
+[33mcommit 6125a928802902ad9761750e36d55a9702ccbe21[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Oct 23 13:51:54 2012 +0800
+
+    COmmit totalphase drivers
+
+[33mcommit 625249e49e95a262b62c1faa81df88650f69ec3c[m
+Merge: 32bce99 d109480
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Oct 3 13:09:48 2012 +0800
+
+    Merge branch 'development'
+
+[33mcommit d1094801bee665512e6fa0d98a6ee13e389ee77b[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Oct 3 13:09:25 2012 +0800
+
+    Updated UART Apps
+
+[33mcommit 32bce9981f78967ed61e60f000fd3996beb87672[m
+Merge: dc4ab0e 437d7da
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Sep 25 11:23:13 2012 +0800
+
+    Merge branch 'development'
+    
+    Conflicts:
+            misc/aadvark-api-v5.13/linux-x86/python/aaspi_slave.py
+
+[33mcommit 437d7da587ca192329846903279e3713db8af2a9[m
+Author: root <root@localhost.localdomain>
+Date:   Mon Sep 10 15:33:17 2012 +0800
+
+    rtc test code
+
+[33mcommit 0303197d7676ef94a259c60d57f005cee78902d2[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Mon Sep 10 15:34:37 2012 +0800
+
+    Added Firmware Test Suite to Repository
+
+[33mcommit 25fdc9aceb921632f550f2a1b8ac2b9803b19a17[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 27 03:18:58 2012 +0800
+
+    Port 32 bit changes for aadvark api to 64 bit aadvark api as well
+
+[33mcommit d032149d162391b2fe9b19e6de7612339f718d8c[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 27 03:15:12 2012 +0800
+
+    Commit 32bit changes on aadvark api for spi 16 and 32 bit data length data test
+
+[33mcommit 49438caf7b003f4eaf29b9738fcb5f0e72fa4216[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jul 25 13:17:10 2012 +0800
+
+    Added Cheetah and Beagle API and GUI into repository
+
+[33mcommit d79b3b0c91a9e3330269f5719b7c63ca4522387d[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 10 16:42:20 2012 +0800
+
+    Build and commit latest 64 bit spi app with 16 bit transmission fix
+
+[33mcommit dc4ab0e38c53171592473afc98bdc38e07f510eb[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jul 4 09:12:09 2012 +0800
+
+    Add and ported 32 bit aadvark apis to repository
+
+[33mcommit 5284b0f364782044941f82efaf47cf2481b5f982[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Tue Jul 3 19:04:27 2012 +0800
+
+    Modified ip executable
+
+[33mcommit 1797bc4a8cdae9344e8c1802146947871e42cc4e[m
+Merge: f28adff add718f
+Author: root <root@test.gar.corp.intel.com>
+Date:   Tue Jul 3 19:01:48 2012 +0800
+
+    Merge branch 'master' of ssh://10.221.119.19/home/test-apps/
+
+[33mcommit add718fe21e029b09886755cdbe255c9b796de87[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 3 18:57:48 2012 +0800
+
+     add valleyview spi app into repository
+
+[33mcommit d0a8a5f0f05d36553060bfe61f329cd61f556536[m
+Author: root <root@VLVSUT.(none)>
+Date:   Mon Jul 2 22:06:06 2012 +0800
+
+    Fixed 16 bit SPI transmission bug
+
+[33mcommit 4be47b35250d24993a44eeafe7081c2aed586272[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 10 21:17:56 2012 +0800
+
+    Commit SPI test app for 32 bit linux testing SPI 16 bit word length
+
+[33mcommit 1fe66490146ca596f2c25faf0abde0fda75fbed4[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 10 13:19:32 2012 +0800
+
+    Commit built 64 bit app for 16 bit length for SPI
+
+[33mcommit 60b8a7164b548568a34203b438bee43e3c6db772[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 10 13:18:37 2012 +0800
+
+    Add changes for 16 bit length spi app
+
+[33mcommit 7f1beb98b615c82199b062d38f09b6e4e5ba8d02[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 6 12:08:35 2012 +0800
+
+    Minor error fix again...
+
+[33mcommit 6bcc7b638fc5c4ba5f2586c2603dba908e6c1da7[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 6 12:06:35 2012 +0800
+
+    Changed the 16bit in Write16 bit function
+
+[33mcommit 4136f0169a105fcf2fafb5503037465fec9e1357[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri Jul 6 12:01:24 2012 +0800
+
+    Modified app for 16 bit data read/write
+
+[33mcommit e30f396e2b5fe32d05ecfd08e0792c15aaaeb6ec[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Jul 4 09:08:38 2012 +0800
+
+    Add and ported 32 aadvark apis to repository
+
+[33mcommit 5983be80a350383d4343fb5268741675b63bdbc9[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 3 19:14:17 2012 +0800
+
+    Updated 64 bit UART test app with fix for parity
+
+[33mcommit b7fdc0fa6b590c28c7cbc5576ca95d98a49e2d27[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Tue Jul 3 19:08:15 2012 +0800
+
+    Add updated uart binary built for 32 bit. Test changes on Even and Odd Parity
+
+[33mcommit 2ad2599ade19e447b4704c43a248c70496932b3b[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Jul 3 19:02:03 2012 +0800
+
+    Change configuration for UART Parity Even and Odd.
+
+[33mcommit 82abd314fa1d54693853fedbaa796131e264b828[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri May 4 11:12:56 2012 +0800
+
+    Restructured evtest folder and added in source code.
+
+[33mcommit 4762c321a194d5c144f1ea74d22dc5e23f4a6bb5[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Fri May 4 11:10:46 2012 +0800
+
+     Added evtest for multi touch troubleshooting for android
+
+[33mcommit ed347eda4227287a24e5ad5ad477d1f34688ff1e[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Mar 22 19:07:41 2012 +0800
+
+    Modified aaspi_slave.py for automated script
+
+[33mcommit 2ecc184ac0b68f7dc06b82eb52980cf76806f2f1[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Mar 22 16:27:52 2012 +0800
+
+     Modified aai2cslave.py to accept additional number of bytes parameter
+
+[33mcommit f28adffe127043d02d6cfa8a48a5259761e9df9b[m
+Merge: 5be3123 30ed4be
+Author: root <root@test.gar.corp.intel.com>
+Date:   Tue Mar 20 13:07:11 2012 +0800
+
+    Merge branch 'master' of ssh://10.221.119.19/home/test-apps/
+
+[33mcommit f3ab5cffd5b2b58f8f1401cb9e2ef26f5e8afd2d[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Mar 20 11:28:36 2012 +0800
+
+    Remove test file
+
+[33mcommit d4b3bfd0c3ffbae344b89e2add06d97c6073aa96[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Mar 20 11:25:26 2012 +0800
+
+    Insert and push test file to test git on server
+
+[33mcommit 30ed4be998b52d1f5456179407d285dfe1befb26[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Mar 6 15:16:00 2012 +0800
+
+    Modified aai2c_slave.py to support read/write from command line
+
+[33mcommit 53d7d10f04036894e35a0251503fc37af710fa0a[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Tue Mar 6 15:14:35 2012 +0800
+
+    Initial commit of aadvark api and gui
+
+[33mcommit 5be3123bbbb0aaf16472e72448cae859f1b85b74[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Thu Feb 16 15:02:37 2012 +0800
+
+    Build i2c for x86 linux
+
+[33mcommit 03ad6b2b01bd9b43460e9f5822e60117a43d25c6[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Feb 16 14:56:08 2012 +0800
+
+    Commit change to i2c write method and android/linux-64 builds
+
+[33mcommit c5fd5e0565ee93c246174c9f49033f22f22a8002[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Feb 16 14:32:01 2012 +0800
+
+    Add support for linux x86 copyout
+
+[33mcommit 6b906d17c26420b98384f72273c11064d4320a8e[m
+Author: root <root@test.gar.corp.intel.com>
+Date:   Thu Feb 16 14:27:17 2012 +0800
+
+    Add builds for x86 for i2c, can, spi, uart
+
+[33mcommit c25653f1b0116f009d215b8335fc1c8d8bc53d4a[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Feb 16 12:58:35 2012 +0800
+
+    Updated copy script with error check and destination copy location
+
+[33mcommit fe0972b203a5ac6bad2d3313a4a6f98c8a80fa81[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Thu Feb 16 11:53:22 2012 +0800
+
+    Initial Commit of copy out script
+
+[33mcommit 348c8952c0b5ea8c2f14c90cbde5ef947e1c2397[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 18:26:59 2012 +0800
+
+    Misc test apps check in
+
+[33mcommit 296583f46abca390784537a295a7aada4fd9e197[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 18:19:51 2012 +0800
+
+    Commit i2c, uart, can and spi build for android-x86
+
+[33mcommit 9a95ac1c14d8238d761523a3c82ab1a3704d562b[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 17:53:06 2012 +0800
+
+    Add built binaries for can,i2c,spi and uart for linux-x64
+
+[33mcommit 30224a406b1538d940dd8a36c5cc2570e1c4f8eb[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 17:50:00 2012 +0800
+
+    Removed Read Back for I2C Sample Test App
+
+[33mcommit 3c94a78509ce247ec3d6d840d0f0c700c16bc214[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 17:49:07 2012 +0800
+
+    Commit I2C Modified Test App
+
+[33mcommit 5ac1690d6e3bc76459ee8b4b93f42dcfae3a2af2[m
+Author: ntleow <teng.jun.nicholas.leow@intel.com>
+Date:   Wed Feb 15 17:34:10 2012 +0800
+
+    Initial Commit of CAN, SPI and UART Test Apps to repository

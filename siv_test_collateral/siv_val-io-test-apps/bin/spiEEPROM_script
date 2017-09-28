@@ -1,0 +1,137 @@
+#!/bin/bash
+
+# CREATED: 2013-08-07
+# AUTHOR: Henri N
+# DESCRIPTION: Script written to execute High Speed SPI Test
+# UPDATE 2014-05-23: Add function to check validity of data
+# UPDATE 2014-06-26: 
+
+# SET DEFAULT PARAMETERS
+DEVICE=/dev/spidev32766.0
+SPEED=1000000
+MODE=0
+LENGTH=8
+buff=0.5 # BUFFER TIME. OPTIMAL TIME FOR 128 DATA >= 0.5
+if [ ! -z $1 ]; then
+    DEVICE=$1
+    if [ ! -z $2 ]; then
+        SPEED=$2
+        if [ ! -z $3 ]; then
+            MODE=$3
+            if [ ! -z $4 ]; then
+                LENGTH=$4
+            fi
+        fi
+    fi
+fi
+cont==true
+iteration=1
+if [ "$5" != "" ]; then
+    iteration=$5
+fi
+log_file="/dev/null"
+if [ "$6" != "" ]; then
+    log_file=$6
+fi
+
+# INPUT CHECK
+if [ "$1" == "" ]; then
+    echo "Usage $0 [device] [speed] [mode] [length] [Iteration] [Log file]"
+    cont=false
+else
+    cont=true
+fi
+
+# BUFFER TIME CHECKER
+# if [ "$2" -lt "10000000" ]; then
+    # buff=0.5
+# fi
+# if [ "$2" -gt "10000000" ]; then
+    # buff=1
+# fi
+
+# EXECUTION
+echo -e "\nPlease wait while app is running..." | tee -a "$log_file"
+echo -e "\nDevice:\t\t$1\nSpeed:\t\t$2\nMode:\t\t$3\nLength:\t\t$4\nIteration:\t$iteration" | tee -a "$log_file"
+if [ "$5" != "" ]; then
+    echo -e "Log file:\t$log_file\n" | tee -a "$log_file"
+fi
+
+cd /root/test-apps/linux-x86/
+
+if $cont; then
+    flag=0
+    
+    # LOOPING
+    while [ $flag -lt $iteration ]; do
+        $command #Loop component
+        if [ $iteration -gt 1 ]; then
+            echo -e "============= Iteration "$((flag+1))" ================" | tee -a "$log_file"
+        fi
+        echo -e "START: "`date`"\n" | tee -a "$log_file"
+
+        # RANDOM HEX CHAR GENERATOR
+        DATA=`cat /dev/urandom | tr -cd 'a-f0-9' | head -c 2`
+        BLANKS=00
+        
+        count=1
+        while [ $count -lt $LENGTH ]; do
+            tail=`cat /dev/urandom | tr -cd 'a-f0-9' | head -c 2`
+            DATA=$DATA" "$tail
+            BLANKS=$BLANKS" "00
+            count=$((count+1))
+        done
+
+        #echo $BLANKS
+        #echo $DATA
+
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 9F 00 00 00 00 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 03 35 FF 00 $BLANKS > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 06 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 05 00 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE D8 35 FF 00 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 05 00 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 03 35 FF 00 $BLANKS > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 06 > /dev/null 2>&1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 05 00 > /dev/null 2>&1
+        sleep $buff
+        sent=`./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 02 35 FF 00 $DATA | grep 'Data Transmit'`
+        len1=`expr length "$sent"`
+        #echo $((len1-LENGTH*3-1))-$((len1))
+        tx_data=`echo "$sent" | cut -c $((len1-LENGTH*3+2))-$((len1))`
+        echo -e "SENT DATA: \n$tx_data" | tee -a "$log_file"
+        #echo $len1
+        sleep $buff
+        ./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 05 00 > /dev/null
+        sleep $buff
+        received=`./spi_EEPROM $DEVICE 8 $SPEED msb $MODE 03 35 FF 00 $BLANKS | grep 'Data Received'`
+        len2=`expr length "$received"`
+        #echo $((len2-LENGTH*3-1))-$((len2))
+        rx_data=`echo "$received" | cut -c $((len1-LENGTH*3+2))-$((len1))`
+        echo -e "RECEIVED DATA: \n$rx_data\n" | tee -a "$log_file"
+        #echo $len2
+        
+        echo -e "END: "`date`
+        if [ "$tx_data" == "$rx_data" ] && [ "$tx_data" != "" ]; then
+            echo -e "\nIteration "$((flag+1))" VERDICT: PASS" | tee -a "$log_file"
+            if [ $iteration -lt 2 ]; then
+                exit 0
+            fi
+        else
+            echo -e "\nIteration "$((flag+1))" VERDICT: FAIL" | tee -a "$log_file"
+            if [ $iteration -lt 2 ]; then
+	        exit 1
+            fi
+        fi
+        
+        flag=$((flag+1))  #Loop component
+    done
+fi

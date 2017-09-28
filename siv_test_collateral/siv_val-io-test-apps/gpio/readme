@@ -1,0 +1,18 @@
+
+To Build the GPIO module:
+> make KERNEL_SOURCE=< Path to kernel source >
+
+To Clean the GPIO module:
+> make clean KERNEL_SOURCE=< Path to kernel source >
+
+To Load the GPIO kernel Module:
+> insmod GPIO_Interrupts_Kernel_Based.ko GPIO=XXX TYPE=Y
+                Y : 
+                                0 = None
+                                1 = Rising
+                                2 = Falling
+                                3 = Assert High (level)
+                                4 = Assert Low (level)
+                XXX:
+                                GPIO number
+

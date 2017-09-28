@@ -1,0 +1,126 @@
+                  Beagle Protocol Analyzer Software
+                  ---------------------------------
+
+Introduction
+------------
+This document outlines the changes required to upgrade existing
+software that is dependent on previous versions of the API.  Only
+the changes between versions are given in the sections below.  New
+features are addressed in the datasheet.
+
+Please ensure that all older copies of the Beagle library
+(beagle.dll or beagle.so) are removed from your operating system
+path before running your upgraded application.  This will help
+prevent the wrong library from being loaded with your application,
+thereby causing a version mismatch.
+
+
+Upgrade from v1.xx to v2.00
+---------------------------
+- On Microsoft Windows platforms, ensure that the USB driver
+  has been upgraded to version 1.1.0.0.  See the Beagle datasheet
+  for details.
+
+- Changes to naming convention of certain types.  For example,
+  BEAGLE_STATUS is now BeagleStatus.
+
+- Constants now have the prefix "BG_" as opposed to "BEAGLE_".
+
+- Function names now have the prefix "bg_" as opposed to "beagle_".
+
+- Changed the function prototype for all read functions with timing
+  (e.g., bg_spi_read_bit_timing) to include a length argument in
+  front of every array passed into the function, including
+  data buffers and timing buffers.
+
+
+Upgrade from v2.xx to v3.01
+---------------------------
+- Changed old "bg_usb_" prefix to "bg_usb12_" to better differentiate
+  the older functions with the newer "bg_usb480_" prefixed functions.
+
+- Added an "events" argument to the bg_usb12_read functions that is
+  filled with bus events that are seen on the bus.  This better segments
+  status codes from bus events.  The various bus event constants have
+  been renamed from their previous "BG_STATUS_" prefix to "BG_EVENT_".
+
+- Changed Rosetta bindings for C#, .NET, VB.NET, and VB6 such that all
+  arrays must be also accompanied by a separate length argument.  See
+  the README.txt for details.
+
+- Changed Rosetta bindings for C# to fix type specification for output
+  arrays (arrays that are filled by the API function).  These arrays no
+  longer need to be passed as "ref array_var_name".
+
+- Changed bg_find_devices_ext function so that each array argument
+  (devices and unique_ids) is preceded by its own individual length
+  specification.  Please see Beagle datasheet for the behavior
+  when these lengths are not equal.
+
+- Replaced bg_buffers_avail and bg_buffers_info functions with
+  bg_host_buffer_size, bg_host_buffer_free, and bg_host_buffer_used.
+  See the Beagle datasheet for details on these new functions.
+
+- A new event code, BG_USB_TARGET_RESET, has been added and the
+  bg_usb12_read functions now return it along with the
+  BG_EVENT_TARGET_DISCONNECT event.  Previously there was only
+  a single BG_READ_USB_TARGET_DISCONNECT constant.
+
+- Changed BG_USB_PID_RESERVE constant to BG_USB_PID_RESERVED.
+
+
+Upgrade from v3.01 to v3.02
+---------------------------
+- Support for Python v2.3 has been deprecated.  Due to certain
+  issues with integer types in Python 2.3, large unsigned 32-bit
+  integers returned from the API will appear as signed negative
+  integers.  Total Phase recommends upgrading to Python 2.4 or
+  greater since it is possible that support for Python 2.3 may be
+  entirely dropped in the future.
+
+Upgrade from v3.xx to v4.00
+---------------------------
+- Renamed certain BG_USB480_* constant and enum prefixes to BG_USB2_*
+  to enable sharing between the Beagle USB 480 and the Beagle
+  USB 5000.
+
+Upgrade from v4.00 to v4.10
+---------------------------
+- Changed method for marking CRCs on match units to use the
+  BeagleUsb5000ErrorType enum.
+- BG_USB5000_SIMPLE_MATCH_IMMEDIATE changed to
+  BG_USB5000_SIMPLE_MATCH_NONE.
+
+Upgrade from v4.10 to v4.20
+---------------------------
+- Changed names for many USB 3 related constants and types.  In each
+  case BG_USB5000_* was changed to BG_USB5000_USB3_*, and
+  BeagleUsb5000* was changed to BeagleUsb5000Usb3*.  The following
+  names were changed:
+
+  * BG_USB5000_SIMPLE_*
+  * BG_USB5000_IPS_TYPE_*
+  * BG_USB5000_EXTOUT_*
+  * BG_USB5000_MATCH_PACKET_*
+  * BG_USB5000_MATCH_CRC_*
+  * BG_USB5000_MATCH_ERR_*
+  * BG_USB5000_COMPLEX_MATCH_EVENT_*
+  * BeagleUsb5000IPSType
+  * BeagleUsb5000ExtoutMode
+  * BeagleUsb5000DataProperties
+  * BeagleUsb5000PacketType
+  * BeagleUsb5000ErrorType
+  * BeagleUsb5000DataMatchUnit
+  * BeagleUsb5000TimerMatchUnit
+  * BeagleUsb5000AsyncEventType
+  * BeagleUsb5000AsyncEventMatchUnit
+  * BeagleUsb5000ComplexMatchState
+  * BeagleUsb5000Channel
+
+- The state with which the trigger occurred is now shifted.  To
+  correctly identify the state, first mask the event by
+  BG_EVENT_USB_TRIGGER_STATE_MASK, and then shift right by
+  BG_EVENT_USB_TRIGGER_STATE_SHIFT.
+- The BeagleUsb5000Usb3DataMatchUnit now combines the "data_not" and
+  "match_other_packets" fields into a single "match_modifier".
+

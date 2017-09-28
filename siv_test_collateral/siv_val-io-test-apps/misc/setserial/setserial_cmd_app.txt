@@ -1,0 +1,15 @@
+Below are the steps to enable the setserial command:
+1.Insert the serial.h from the attached folder to /bionic/libc/kernel/common/linux
+2.Copy the setserial folder from the attached folder to /external
+3.To compile the app, issue:
+	a.source build/envsetup.sh 
+	b.lunch
+	c.select "e660-eg20t-eng"
+	d.mmm -j4  external/setserial
+4.After the compilation is successful, copy the setserial binary from /out/target/product/e660_eg20t/symbols/system/bin to the /system/bin in the Android bootable USB
+
+To use the setserial command:
+1)Issue setserial /dev/ttyPCHx ^low_latency to enable DMA mode, where x=port num
+2)Issue setserial /dev/ttyPCHx low_latency  to enable PIO mode (non DMA), where x=port num
+3)Issue setserial -a /dev/ttyPCHx  to check whether the low_latency flag is disabled or enabled, where x=port num.
+

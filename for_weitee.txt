@@ -1,0 +1,16 @@
+run from thm
+python /home/siv_test_collateral/siv_val-io-test-scripts/system/rtc_gio.py -i $sut_ip -t check_driver
+python /home/siv_test_collateral/siv_val-io-test-scripts/common/dmesg_lspci.py -i $sut_ip -c ls -sub_op pci -k $keyword
+python /home/siv_test_collateral/siv_val-io-test-scripts/common/driver_pwrMgmt.py $sut_ip i2c $i2c_port $bus_number
+python /home/siv_test_collateral/siv_val-io-test-scripts/storage/storage_time_vfat.py -ip $sut_ip -op partition -pn 5 -ft FAT32 -dv $SD_device -md SD
+python /home/siv_test_collateral/siv_val-io-test-scripts/i2c/Main_i2c_functional_BXT.py -ip $sut_ip -thm_ip $thm_ip -wr read -dma off -bl 8 -bs 8 -sa 3FF -s 400000 -pci PCI
+python /home/siv_test_collateral/siv_val-io-test-scripts/dal/DAL_bist.py -sut_ip $sut_ip -test_case DAL_security-F022-M-001
+python /home/siv_test_collateral/siv_val-io-test-scripts/eth/check_ethtool.py -sut_ip $sut_ip
+python /home/siv_test_collateral/siv_val-io-test-scripts/watchdog/watchdog_gio.py -sut_ip $sut_ip -op watchy3/check_driver/watchy1(-status activation/deactivation)
+python /home/siv_test_collateral/siv_val-io-test-scripts/uart/uart_bxt.py -i $sut_ip -thm_ip $thm_ip -it $iteration -m txr -b 115200 -d 5 -s 1 -p odd -f none -pci PCI
+
+
+
+run directly at sut
+python /home/siv_test_collateral/siv_val-io-test-apps/IPU/ipu_tpg_api_test.py -t CI_TPG_IPU4_IOCTL_QUERYBUF_Normal_Check_Noblock_Userptr_Raw8_1280x720
+/home/siv_test_collateral/siv_val-io-test-apps/system/lpc.sh

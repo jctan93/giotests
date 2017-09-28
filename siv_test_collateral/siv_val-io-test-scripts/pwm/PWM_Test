@@ -1,0 +1,160 @@
+#!/bin/bash
+
+echo "Usage $0 [COMMAND] [out1_period] [out1_duty_cycle] [out2_period] [out2_duty_cycle]"
+OUT1=/sys/class/pwm/pwmchip0
+OUT2=/sys/class/pwm/pwmchip1
+PIN=0
+PERIOD=10000
+DUTY=5000
+PERIOD1=$PERIOD
+PERIOD2=$PERIOD
+DUTY1=$DUTY
+DUTY2=$DUTY
+
+if [ ! -z $2 ]; then
+	PERIOD1=$2
+	if [ ! -z $3 ]; then
+		DUTY1=$3
+		if [ ! -z $4 ]; then
+			PERIOD2=$4
+			if [ ! -z $5 ]; then
+				DUTY2=$5
+			fi
+		fi
+	fi
+fi
+
+CURR_DIR=`pwd`
+echo $CURR_DIR
+
+if [[ $1 == "export" ]]; then
+ echo "========================="
+ echo "Exporting Pins"
+ echo "Pin 1: $OUT1"
+ echo "Pin 2: $OUT2"
+ echo "========================="
+ 
+ cd $OUT1
+ `echo $PIN > export`
+ ls $OUT1
+
+ cd $OUT2
+ `echo $PIN > export`
+ ls $OUT2
+
+ cd $CURR_DIR
+ 
+elif [[ $1 == "output" ]]; then
+ echo "Output PWM"
+ echo "========================="
+ echo "Output PWM Signal"
+ echo "Pin 1: $OUT1"
+ echo "Pin 1 Period: $PERIOD1"
+ echo "Pin 1 Duty: $DUTY1"
+ echo ""
+ echo "Pin 2: $OUT2"
+ echo "Pin 2 Period: $PERIOD2"
+ echo "Pin 2 Duty: $DUTY2"
+ echo "========================="
+ 
+ cd $OUT1/pwm$PIN
+ `echo $PERIOD1 > period`
+ `echo $DUTY1 > duty_cycle`
+ echo "========================="
+ echo "Readback Pin 1 Settings"
+ READ_PERIOD1=`cat $OUT1/pwm$PIN/period`
+ READ_DUTY1=`cat $OUT1/pwm$PIN/duty_cycle`
+ echo " Readback Pin 1 Period: $READ_PERIOD1"
+ echo " Readback Pin 1 Duty: $READ_DUTY1"
+ echo "========================="
+
+ cd $OUT2/pwm$PIN
+ `echo $PERIOD2 > period`
+ `echo $DUTY2 > duty_cycle`
+ echo "========================="
+ echo "Readback Pin 2 Settings"
+ READ_PERIOD2=`cat $OUT2/pwm$PIN/period`
+ READ_DUTY2=`cat $OUT2/pwm$PIN/duty_cycle`
+ echo " Readback Pin 1 Period: $READ_PERIOD2"
+ echo " Readback Pin 1 Duty: $READ_DUTY2"
+ echo "========================="
+
+ cd $CURR_DIR
+elif [[ $1 == "unexport" ]]; then
+ echo "========================="
+ echo "Unexporting Pins"
+ echo "Pin 1: $OUT1"
+ echo "Pin 2: $OUT2"
+ echo "========================="
+ 
+ cd $OUT1
+ `echo $PIN > unexport`
+ ls $OUT1
+
+ cd $OUT2
+ `echo $PIN > unexport`
+ ls $OUT2
+
+ cd $CURR_DIR
+
+elif [[ $1 == "enable" ]]; then
+ echo "Enable Output PWM"
+ echo "========================="
+ echo "Enable Output PWM Signal"
+ echo "Pin 1: $OUT1"
+ echo "Pin 2: $OUT2"
+ echo "========================="
+ 
+ cd $OUT1/pwm$PIN
+ `echo 1 > enable`
+ echo "========================="
+ echo "Readback Pin 1 Settings"
+ READ_ENABLE1=`cat $OUT1/pwm$PIN/enable`
+ echo " Readback Pin 1 Enable: $READ_ENABLE1"
+ echo "========================="
+
+ cd $OUT2/pwm$PIN
+ `echo 1 > enable`
+ echo "========================="
+ echo "Readback Pin 2 Settings"
+ READ_ENABLE2=`cat $OUT2/pwm$PIN/enable`
+ echo " Readback Pin 2 Enable: $READ_ENABLE2"
+ echo "========================="
+
+ cd $CURR_DIR
+
+elif [[ $1 == "disable" ]]; then
+ echo "Disable Output PWM"
+ echo "========================="
+ echo "Disable Output PWM Signal"
+ echo "Pin 1: $OUT1"
+ echo "Pin 2: $OUT2"
+ echo "========================="
+ 
+ cd $OUT1/pwm$PIN
+ `echo 0 > enable`
+ echo "========================="
+ echo "Readback Pin 1 Settings"
+ READ_ENABLE1=`cat $OUT1/pwm$PIN/enable`
+ echo " Readback Pin 1 Enable: $READ_ENABLE1"
+ echo "========================="
+
+ cd $OUT2/pwm$PIN
+ `echo 0 > enable`
+ echo "========================="
+ echo "Readback Pin 2 Settings"
+ READ_ENABLE2=`cat $OUT2/pwm$PIN/enable`
+ echo " Readback Pin 2 Enable: $READ_ENABLE2"
+ echo "========================="
+
+ cd $CURR_DIR
+
+else
+ echo "Use the following options:"
+ echo "    export    Export Pins"
+ echo "    output    Output PWM Signals according to the parameters provided"
+ echo "    unexport  Unexport Pins"
+ echo "    enable    Enable PWM Output"
+ echo "    disable   Disable PWM Output"
+fi
+ 
