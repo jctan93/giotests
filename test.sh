@@ -15,4 +15,7 @@ set -x
 #./rtc_cmos_test
 
 #python gui_startup.py
-python siv_test_collateral/siv_val-io-test-scripts/system/rtc_gio.py -i $sut_ip -t check_driver
+#python siv_test_collateral/siv_val-io-test-scripts/system/rtc_gio.py -i $sut_ip -t check_driver
+
+./siv_test_collateral/siv_val-io-test-apps/system/lpc.sh
+
